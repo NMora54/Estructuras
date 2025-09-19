@@ -2,7 +2,7 @@ estrato = int(input("ingrese su estrato  "))
 smlv = 1423500
 match estrato:
     case 1:
-    des=(smlv*30)/100
+        des=(smlv*30)/100
         print(f"valor de la matricula {smlv}, desceunto 30%, valor a pagar {smlv-des}")
     case 2:
         des=(smlv*20)/100
